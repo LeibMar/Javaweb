@@ -1,0 +1,438 @@
+
+body {
+    background-color: lightsteelblue;
+    background-image: url("../Imagens/sp_antiga.jpg");
+   
+    height: 100%;
+}
+
+
+
+#ref {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+header {
+   
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    text-align: center;
+    background-color: lightsteelblue;
+    
+}
+
+header p {
+    font-size: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.barra_top {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: top left;
+   
+    
+}
+
+
+
+.superior {
+ 
+  align-items: center;
+ 
+ 
+
+}
+
+
+
+
+.busca_main {
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+ .busca_refined {
+   
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   height: auto
+   
+  }
+
+
+  #campo_main {
+    align-content: center;
+    justify-content: center;
+       
+}
+  .busca {
+    margin-left: 30%;
+        margin-right: 30%; 
+        
+  }
+
+  #busca {
+    display: flex;
+    align-self: center;
+  }
+
+  .esquerdo {
+    
+    margin-right: 90%;
+    float: left;
+  
+    }
+
+ .direito {
+       
+    margin-left: 80%;
+    position: absolute;
+    float: right;
+      
+    }
+
+  #ajuda {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: lightsteelblue;
+    border: slategrey;
+    
+}
+#p_ajuda {
+   margin-left: 25%;
+  
+}
+.logo_patrocinador {
+   width: 10%;
+   height: 10%;
+   
+   
+   cursor: pointer;
+
+   
+}
+
+#logo_maior img {
+   width: 60%;
+   height: 60%;
+   display: flex;
+   align-content: center;
+   margin-left: 5%;
+  
+}
+.alt {
+   justify-content: right;
+}
+
+.bt_alfabetico {
+   background-color: slategray;
+}
+
+#logo_maior {
+margin-top: 10%;
+margin-left: 10%;
+
+}
+ 
+ 
+ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap ;
+}
+li a {
+    display: block;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.esquerdo li {
+  cursor: pointer;
+  color: snow;
+  background: steelblue;
+
+}
+
+.esquerdo ul {
+  list-style-type: disc;
+  
+ 
+}
+h3 {
+    background: linear-gradient(to bottom, slategray, steelblue, lightsteelblue );
+    background-color: lightsteelblue;
+    border-radius: 5%;
+    font-family: 'Cinzel', serif;
+   
+ }
+/* parte inferior da página*/
+
+
+.sobre {
+    
+   
+    background-color: lightsteelblue;
+  border: slategrey;
+  border-style: solid;
+  
+  margin-bottom: 10%;
+  margin-top: 10%;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  
+    
+}
+ h1 {
+     
+     font-family: 'Cinzel', serif;
+ }
+
+
+#sobre {
+    text-align: justify;
+   margin-left: 5%;
+}
+
+ #p_sobre {
+    display: flex;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+ 
+
+.container_anim {
+    width: 700px;
+    height: 600px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: slategrey;
+    border-style: groove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-name: muda_imagem;
+}
+
+@keyframes muda_imagem {
+         0% { background-image: url("../Imagens/revolucao1930red.jpg");}
+         20% { background-image: url("../Imagens/praca1970red.jpg");}
+         40% { background-image: url("../Imagens/mercadored.jpg");}
+         60% { background-image: url("../Imagens/lavadeiras1970red.jpg");}
+         80% { background-image: url("../Imagens/nipopaulistanosred.jpg");}
+         100% { background-image: url("../Imagens/decada20red.jpg");}
+     }
+
+
+     footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1rem;
+        background-color: lightsteelblue;
+        border: slategrey;
+        text-align: center;
+        
+      }
+
+/* entrada.html */
+
+#Nome_entrada {
+    display: flex;
+    margin-left: 5%;
+}
+
+h4 {
+    font-weight: bold;
+    
+}
+
+#entrada {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    background-color: lightsteelblue;
+    border: slategray;
+    border-style: solid;
+    margin-bottom: 10%;
+    margin
+}
+
+.fatos {
+    
+ 
+    margin-right: 40%;
+    margin-left: 5%;
+   
+    font-size: 1rem;
+    margin-bottom: 5%;
+    
+}
+
+
+
+#corpo_entrada {
+    display: flex;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+
+/* Página de Ajuda */
+#ajuda {
+    background-color: steelblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70%;
+    font-size: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#texto_ajuda {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    background-color: steelblue;
+}
+
+/* Media query */
+    
+@media (max-width: 768px) {
+   
+   
+    header {
+        font-size: 1rem;
+        size: 40%;
+    }
+    
+    .barra_top ul {
+      
+        width: 50%;
+        height: 25%;        
+        
+    }
+    
+    .superior {
+        width: 100%;
+        margin-bottom: 70%;
+    }
+    #campo_main {
+        margin-left: 5%;
+       width: 50%;
+    }
+   
+ 
+     .busca_refined {
+         margin-left: 0%;
+         margin-right: 0%;
+     }
+    
+     
+     
+     .esquerdo {
+         width: 90%;
+     }
+     ul {
+         width: 10%;
+     }
+     h1 {
+         width: 52%;
+         font-size: 2rem;
+     }
+     h3 {
+         font-size: 0.5rem;
+     }
+     
+     main {
+         top: 50px;
+     }
+     .sobre {
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .container_anim {
+         
+         width: 70%;
+         height: 90%;
+          
+       }
+
+    #p_sobre {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+   }
+       #sel_genero, #sel_profis, #sel_epoca, #sel_etnia {
+           width: 90%;    
+           
+       }
+    
+       
+
+
+
+
+/* Ajuda.html */
+#ajuda {
+    width: 50%;
+}
+
+ /*Entrada.html*/
+ #entrada {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+#corpo_entrada {
+   width: 90%;
+   font-size: 1rem ;
+}
+
+.fatos {
+    width: 90%;
+    height: 100%;
+    font-size: 0.8rem;
+}
+
+.imagem_entrada {
+    width: 50%;
+    height: 40%;
+    border: lightslategrey;
+    border-style: solid;
+}
+#Nome_entrada {
+    font-size: 1rem;
+} 
+
+
+}
+  
+  
+  
+ 
